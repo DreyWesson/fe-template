@@ -1,0 +1,69 @@
+nav {
+  background-color: black;
+  opacity: 0.5;
+}
+.navbar-brand {
+  font-family: "Merienda One", cursive;
+}
+.jumbotron {
+  position: relative;
+  background: none;
+  color: white;
+  min-height: 400px;
+  margin-bottom: 0;
+}
+.jumbotron:after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  /* background-image: url("./kidsinneed1.jpg"); */
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  max-width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+.navbar-dark .navbar-nav .active > .nav-link,
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link.show,
+.navbar-dark .navbar-nav .show > .nav-link {
+  color: #ffc107;
+}
+.lil-banner {
+  background-color: rgb(26, 26, 26);
+  width: 100%;
+  color: white;
+  padding: 2px 0;
+}
+
+.btn-warning {
+  color: white;
+  font-weight: bold;
+  border-radius: 19px;
+}
+
+.carousel-item {
+  height: 50vh;
+  /* height: 100vh; */
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+@media screen and (min-width: 700px) {
+  .carousel-item {
+    height: 50vh;
+    /* min-height: 500px; */
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+}
