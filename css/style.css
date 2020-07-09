@@ -91,7 +91,18 @@ nav {
 .profile-card a {
   color: white;
 }
-
+.lead {
+  color: #ffc107;
+}
+.media-body {
+  color: #686e70e7;
+}
+.media-body h5 {
+  color: black;
+}
+i {
+  color: #28a745;
+}
 @media screen and (min-width: 700px) {
   .carousel-item {
     height: 50vh;
